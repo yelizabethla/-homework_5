@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	color: brown;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*********** NAV ************/
+nav {
+	text-align: left;
+}
+
+.accountpic {
+	text-align: right;
+	padding-right: 20px;
+}
+
+.account {
+	text-align: right;
+}
+
+header a {
+	color: olive;
+	text-decoration: none;
+	padding: 20px;
+}
+
+/*********** HEADER ************/
+header {
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+	color: maroon;
+	font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 0px;
+	border-bottom: 0px;
+}
+
+h3 {
+	margin: 0px;
+	border-bottom: 0px;
+}
+
+/*********** PRODUCTS ************/
+.section-title {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+#grid-container {
+	display: grid;
+  	grid-row-gap: 50px;
+  	padding-bottom: 100px;
+}
+
+.category {
+	display: grid;
+  	grid-gap: 0px;
+	grid-row-start: 1;
+  	grid-row-end: 3;
+  	padding-left: 100px;
+  	align-content: center;
+}
+
+.category a {
+	padding-top: 20px;
+	padding-left: 35px;
+	color: olive;
+	text-decoration: none;
+}
+
+#suggestions {
+	display: grid;
+}
+
+.sugg-item {
+	padding-bottom: 15px;
+	font-size: 25px;
+	margin-left: 20px;
+
+  	grid-gap: 50px;
+	grid-row-start: 1;
+  	grid-row-end: 3;
+}
+
+.prod-info {
+	color: olive;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 70px;
+
+	grid-gap: 50px;
+	grid-row-start: 1;
+  	grid-row-end: 3;
+}
+
+.prod-info a {
+	color: olive;
+	text-decoration: none;
+}
+
+.products {
+	color: olive;
+	text-decoration: none;
+	text-align: left;
+}
+
+.products a {
+	padding: 0px;
+	color: olive;
+	text-decoration: none;
+}
+
+.product-title {
+	text-align: left;
+	padding: 0px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	font-style: bold;
+	line-height: 45px;
+}
+
+form {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+/*********** FOOTER ************/
+footer {
+	text-align: right;
+	padding-top: 100px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	background-color: white;
+	color: maroon;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
