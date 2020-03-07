@@ -46,13 +46,12 @@
 				</div>
 				<br>
 				<div id="prod-info">
-					<div class="product-title">
-					$53
-					</div>
+					<div id="product-price" class="product-title">
+					$ 53</div>
 				<br>
 				</div>
-				<div class="prod-info">
-					<form>
+				<div class="products">
+					<div>
 					 	<label for="size">SIZE:</label>
 					 	<input type="text" list="sizes" id="size" name="size">
 						<datalist id="sizes">
@@ -61,8 +60,8 @@
 							<option value="medium"></option>
 							<option value="large"></option>
 						</datalist>
-					</form>
-					<form>
+					</div>
+					<div>
 						<label for="color">COLOR:</label>
 						<input type="text" list="colors" id="color" name="color">
 						<datalist id="colors">
@@ -71,11 +70,11 @@
 							<option value="crazyberry"></option>
 							<option value="fire orange"></option>
 						</datalist>
-					</form>
-					<form>
+					</div>
+					<div onchange="updatePrice()">
 					 	<label for="quantity">QUANTITY:</label>
 					 	<input type="number" list="quantities" id="quantity" name="quantity" value="1">
-					</form>
+					 </div>
 					<br>
 					<button onclick="document.getElementById('cart').src='cart1.png'">Add to Cart</button>
 				</div>
